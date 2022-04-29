@@ -11,4 +11,8 @@ public class Alumno {
 		this.apellido = ap;
 		this.dni = DNI;
 	}
+	
+	public String toString() {
+		return "" + this.nombre + "" + this.apellido + "" + this.dni + "."
+	}
 }
